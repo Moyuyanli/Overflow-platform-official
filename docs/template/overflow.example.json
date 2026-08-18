@@ -1,0 +1,12 @@
+{
+  "providers": [
+    {
+      "enabled": true,
+      "provider": "example",
+      "instance": "main",
+      "config": {
+        "account": "example-account"
+      }
+    }
+  ]
+}

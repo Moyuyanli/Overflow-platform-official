@@ -1,0 +1,26 @@
+{
+  "instances": [
+    {
+      "instance": "main",
+      "config": {
+        "appId": "replace-in-local-config-only",
+        "clientSecret": "replace-in-local-config-only",
+        "environment": "production",
+        "intents": [
+          "GROUP_AND_C2C_EVENT"
+        ],
+        "eventQueueCapacity": 256,
+        "reconnect": {
+          "initialDelayMillis": 1000,
+          "maxDelayMillis": 30000,
+          "maxAttempts": 20
+        },
+        "outbound": {
+          "certification": "unverified",
+          "queueCapacity": 100,
+          "enqueueTimeoutMillis": 5000
+        }
+      }
+    }
+  ]
+}
